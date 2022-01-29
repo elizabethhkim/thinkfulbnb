@@ -59,9 +59,6 @@ header {
   background-color: #ff385c;
   padding: 20px 20px 0 20px;
   text-align: center;
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap:wrap; */
 }
 
 .logo {
@@ -191,6 +188,11 @@ footer p {
 
   header nav ul {
     padding-bottom: 0
+  }
+
+  form select,
+  form input {
+    width: 180px;
   }
   
 }
